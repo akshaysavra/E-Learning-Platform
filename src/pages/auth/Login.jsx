@@ -167,7 +167,7 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen p-4 flex items-center justify-center bg-gradient-to-br bg-red-800 via-slate-900 to-slate-800 ">
+    <div className="min-h-screen p-4 flex items-center justify-center bg-gradient-to-br bg-slate-700 via-slate-900 to-slate-800 ">
       <Card className="w-[380px]   bg-slate-900/90 backdrop-blur border border-slate-800 text-slate-100 shadow-2xl">
         <CardContent className="pt-6">
           <h2 className="text-2xl font-semibold text-center mb-6">Login</h2>
