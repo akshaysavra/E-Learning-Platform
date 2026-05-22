@@ -28,7 +28,7 @@ import "./services/classCompletionJob.js"
 
 const app = express();
 app.use(cors({
-    origin : "http://localhost:5173"
+    origin : "https://e-learning-platform-1-fuhy.onrender.com"
 
 }))
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
